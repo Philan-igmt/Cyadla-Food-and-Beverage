@@ -1,15 +1,41 @@
-.navigation{
-    display:flex;
-    width: 100%;
-    justify-content: space-around;
+.example-spacer {
+    flex: 1 1 auto;
+  }
+.logo{
+    width: 80px;
 }
-ul{
-    display: flex;
-    justify-content: space-between;
-    width: 20%;
+.mat-toolbar-row, .mat-toolbar-single-row{
+    height: 10%;
 }
 
-.right{
+.logo, span{
+    margin-top: -2.5%;
+}
+.left{
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+.right{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: green;
+    font-size: 27px;
+}
+.login{
+    width: 116px;
+    height: 37px;
+    color: white;
+    background-color: green;
+    border-radius: 6px;
+    margin-top: -9px;  
+}
+.cart{
+    font-size: 35px;
 }
