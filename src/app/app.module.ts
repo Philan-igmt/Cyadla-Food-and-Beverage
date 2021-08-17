@@ -29,6 +29,36 @@ import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { LoginComponent } from './component/login/login.component';
 import { RegisterComponent } from './component/register/register.component';
+import { RestPasswordComponent } from './component/rest-password/rest-password.component';
+import { PlattersComponent } from './component/platters/platters.component';
+import { OrderHistoryComponent } from './component/order-history/order-history.component';
+import { RequestQuotationComponent } from './component/request-quotation/request-quotation.component';
+import { CheckEmailComponent } from './component/check-email/check-email.component';
+import { PlatterDetailsComponent } from './component/platter-details/platter-details.component';
+import { CartComponent } from './component/cart/cart.component';
+import { CheckoutComponent } from './component/checkout/checkout.component';
+import { MakeReviewComponent } from './component/make-review/make-review.component';
+import { MakeAppointmentComponent } from './component/make-appointment/make-appointment.component';
+import { ServicesComponent } from './component/services/services.component';
+import { AppointmentListComponent } from './component/appointment-list/appointment-list.component';
+import { GenerateQuoteComponent } from './component/generate-quote/generate-quote.component';
+import { QuotationListComponent } from './component/quotation-list/quotation-list.component';
+import { EventInfomationComponent } from './component/event-infomation/event-infomation.component';
+import { EventListComponent } from './component/event-list/event-list.component';
+import { AppointmentSlotComponent } from './component/appointment-slot/appointment-slot.component';
+import { EventSlotComponent } from './component/event-slot/event-slot.component';
+import { UserRoleComponent } from './component/user-role/user-role.component';
+import { UpdateUserRoleComponent } from './component/update-user-role/update-user-role.component';
+import { AddUserRoleComponent } from './component/add-user-role/add-user-role.component';
+import { CustomerProfileComponent } from './component/customer-profile/customer-profile.component';
+import { EmployeeListComponent } from './component/employee-list/employee-list.component';
+import { AddEmployeeComponent } from './component/add-employee/add-employee.component';
+import { UpdateEmployeeComponent } from './component/update-employee/update-employee.component';
+import { ViewEmployeeComponent } from './component/view-employee/view-employee.component';
+import { AddEquipmentComponent } from './component/add-equipment/add-equipment.component';
+import { EquipmentListComponent } from './component/equipment-list/equipment-list.component';
+import { ViewEquipmentComponent } from './component/view-equipment/view-equipment.component';
+import { EquepmentTypeComponent } from './component/equepment-type/equepment-type.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +70,37 @@ import { RegisterComponent } from './component/register/register.component';
     FooterComponent,
     ContactComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    RestPasswordComponent,
+    PlattersComponent,
+    OrderHistoryComponent,
+    RequestQuotationComponent,
+    CheckEmailComponent,
+    PlatterDetailsComponent,
+    CartComponent,
+    CheckoutComponent,
+    MakeReviewComponent,
+    MakeAppointmentComponent,
+    ServicesComponent,
+    AppointmentListComponent,
+    GenerateQuoteComponent,
+    QuotationListComponent,
+    EventInfomationComponent,
+    EventListComponent,
+    AppointmentSlotComponent,
+    EventSlotComponent,
+    UserRoleComponent,
+    UpdateUserRoleComponent,
+    AddUserRoleComponent,
+    CustomerProfileComponent,
+    EmployeeListComponent,
+    AddEmployeeComponent,
+    UpdateEmployeeComponent,
+    ViewEmployeeComponent,
+    AddEquipmentComponent,
+    EquipmentListComponent,
+    ViewEquipmentComponent,
+    EquepmentTypeComponent
   ],
   imports: [
     BrowserModule,
